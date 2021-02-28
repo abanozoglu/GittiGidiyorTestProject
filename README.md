@@ -10,5 +10,6 @@ mvn -B package --file pom.xml
 
 ## Built
 ```
+Maven Projesi olarak yazılmıştır.
 Projede Page Object Pattern üzerine Selenium, Junit ve Log4j kullanılmıştır.
 ```
