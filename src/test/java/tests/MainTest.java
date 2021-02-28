@@ -38,6 +38,7 @@ public class MainTest extends BaseTest{
     @Test
     public void test2LoginToGittiGidiyorAndVerify() {
         loginPage.openTheLoginScreen();
+        log.info("Login Screen Opened");
         loginPage.writeUserName("okxhimxrjnxcqdyksy@kiabws.com");
         loginPage.writePassword("Test123456789");
         loginPage.clickLoginButtonAndVerifyUserIsLogin("tstsrgttgdyr");
