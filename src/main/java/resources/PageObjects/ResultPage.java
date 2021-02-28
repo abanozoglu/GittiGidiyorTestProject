@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import resources.BasePage;
-
 import java.util.List;
 import java.util.Random;
 
@@ -40,7 +39,7 @@ public class ResultPage extends BasePage {
         int webElementsSize = list.size();
         Random rand = new Random();
         int randomProductIndex = rand.nextInt(webElementsSize);
-        System.out.println(randomProductIndex);
+        System.out.println("Random Item Index Number is "+randomProductIndex);
 //        priceFromResultPage = driver.findElement(By.xpath("(//p[@class='fiyat price-txt robotobold price'])["+randomProductIndex+"]")).getText();
 //        System.out.println(priceFromResultPage);
         click(By.xpath("(//a[@class='product-link'])["+randomProductIndex+"]"));
